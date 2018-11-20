@@ -1,0 +1,40 @@
+/* 
+   the style of login and register
+    start
+ */
+#login,
+#register{
+  height:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_form,
+.reg_form{
+  width:35rem;
+  padding:3rem;
+  border:1px solid silver;
+  border-radius:.5rem;
+}
+.login_form h3,
+.reg_form h3{
+  font-size: 20px;
+  margin-bottom:2rem;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+.login-tip,
+.register-tip{
+  color:blue;
+}
+.login-tip:hover,
+.register-tip:hover{
+  opacity:0.7;
+  cursor: pointer;
+}
+/* end */
+.register-button span,
+.login-button span,
+.reset-button span{
+  font-size: 14px;
+}
